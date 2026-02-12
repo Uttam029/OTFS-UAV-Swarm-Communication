@@ -20,40 +20,6 @@ The project includes:
 
 ---
 
-##  Repository Structure
-
-```
-├── simulations/                     # Core BER simulations
-│   ├── otfs_vs_ofdm_ber.m           # Monte Carlo BER: OTFS vs OFDM (Rician channel, QPSK)
-│   ├── otfs_ber.m                   # Modular OTFS BER function
-│   ├── ofdm_ber.m                   # Modular OFDM BER function (16-QAM)
-│   └── compare_otfs_ofdm.m          # Side-by-side comparison driver script
-│
-├── detection/                       # Detection algorithm comparison
-│   └── detection_schemes.m          # LMMSE, MRC, MPA detection BER comparison
-│
-├── parametric_studies/              # Parameter sweep studies
-│   ├── ber_vs_radius_uav.m          # 3D surface: BER vs Radius × UAV nodes (ZP=4/8)
-│   └── ber_vs_snr_radius_uav.m      # BER vs SNR, Radius, UAVs, and subcarrier count
-│
-├── uav_swarm/                       # UAV swarm dynamics
-│   ├── uav_trajectory_3d.m          # 3D trajectory simulation with velocity/acceleration limits
-│   └── jtfr_routing.m               # DDPG-based JTFR routing performance comparison
-│
-├── docs/figures/                    # Output figures and result plots
-│   ├── Compare_OFDM_and_OTFS.png    # OFDM vs OTFS BER comparison
-│   ├── OFDM_BER.png                 # OFDM BER vs SNR curve
-│   ├── OTFS_BER_comparison.png      # OTFS BER vs SNR (0–20 dB)
-│   ├── OTFS_BER_individual.png      # OTFS BER vs SNR (0–24 dB)
-│   └── detection_output.png         # 7 detection algorithms BER comparison
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
 ##  Getting Started
 
 ### Requirements
