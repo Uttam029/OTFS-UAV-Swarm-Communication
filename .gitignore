@@ -1,0 +1,28 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated data
+*.mat
+*.mex*
+*.mexw64
+*.mexmaci64
+*.mexa64
+
+# Simulink
+*.slxc
+slprj/
+
+# MATLAB code generation
+codegen/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
